@@ -1,0 +1,229 @@
+[Project]
+FileName=PNP's Not Pong.dev
+Name=PNP's Not Pong
+UnitCount=16
+Type=1
+Ver=1
+ObjFiles=
+Includes=C:\Dev-Cpp\include\SDL
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Compiler=
+CppCompiler=
+Linker=-lmingw32_@@_-lSDLmain_@@_-lSDL_@@_-lSDL_image_@@_-lSDL_ttf_@@_-mwindows_@@_
+IsCpp=1
+Icon=
+ExeOutput=..\bin
+ObjectOutput=build
+OverrideOutput=1
+OverrideOutputName=PNPs Not Pong.exe
+HostApplication=
+Folders=
+CommandLine=
+UseCustomMakefile=0
+CustomMakefile=
+IncludeVersionInfo=0
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=0000000000000000000000
+
+[Unit1]
+FileName=SpriteFrame.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit2]
+FileName=Bitmask.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit3]
+FileName=Bitmask.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit5]
+FileName=main.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit6]
+FileName=MotionVector.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit7]
+FileName=MotionVector.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit9]
+FileName=Player.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit10]
+FileName=PNP.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit11]
+FileName=PNP.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit12]
+FileName=Sprite.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit13]
+FileName=Sprite.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit14]
+FileName=SpriteBase.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit15]
+FileName=SpriteBase.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit16]
+FileName=SpriteFrame.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit17]
+FileName=SpriteBase.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit18]
+FileName=SpriteFrame.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[VersionInfo]
+Major=0
+Minor=1
+Release=1
+Build=1
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=
+FileDescription=Developed using the Dev-C++ IDE
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=
+AutoIncBuildNr=0
+
+[Unit4]
+FileName=constants.H
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit8]
+FileName=Player.cpp
+CompileCpp=1
+Folder=PNP's Not Pong
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+

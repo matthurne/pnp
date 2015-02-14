@@ -1,0 +1,51 @@
+# Project: PNP's Not Pong
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = build/Bitmask.o build/main.o build/MotionVector.o build/Player.o build/PNP.o build/Sprite.o build/SpriteBase.o build/SpriteFrame.o $(RES)
+LINKOBJ  = build/Bitmask.o build/main.o build/MotionVector.o build/Player.o build/PNP.o build/Sprite.o build/SpriteBase.o build/SpriteFrame.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -lmingw32 -lSDLmain -lSDL -lSDL_image -lSDL_ttf -mwindows  
+INCS =  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/include/SDL" 
+CXXINCS =  -I"C:/Dev-Cpp/lib/gcc/mingw32/3.4.2/include"  -I"C:/Dev-Cpp/include/c++/3.4.2/backward"  -I"C:/Dev-Cpp/include/c++/3.4.2/mingw32"  -I"C:/Dev-Cpp/include/c++/3.4.2"  -I"C:/Dev-Cpp/include"  -I"C:/Dev-Cpp/include/SDL" 
+BIN  = "../bin/PNPs Not Pong.exe"
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before "../bin/PNPs Not Pong.exe" all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "..\bin\PNPs Not Pong.exe" $(LIBS)
+
+build/Bitmask.o: Bitmask.cpp
+	$(CPP) -c Bitmask.cpp -o build/Bitmask.o $(CXXFLAGS)
+
+build/main.o: main.cpp
+	$(CPP) -c main.cpp -o build/main.o $(CXXFLAGS)
+
+build/MotionVector.o: MotionVector.cpp
+	$(CPP) -c MotionVector.cpp -o build/MotionVector.o $(CXXFLAGS)
+
+build/Player.o: Player.cpp
+	$(CPP) -c Player.cpp -o build/Player.o $(CXXFLAGS)
+
+build/PNP.o: PNP.cpp
+	$(CPP) -c PNP.cpp -o build/PNP.o $(CXXFLAGS)
+
+build/Sprite.o: Sprite.cpp
+	$(CPP) -c Sprite.cpp -o build/Sprite.o $(CXXFLAGS)
+
+build/SpriteBase.o: SpriteBase.cpp
+	$(CPP) -c SpriteBase.cpp -o build/SpriteBase.o $(CXXFLAGS)
+
+build/SpriteFrame.o: SpriteFrame.cpp
+	$(CPP) -c SpriteFrame.cpp -o build/SpriteFrame.o $(CXXFLAGS)

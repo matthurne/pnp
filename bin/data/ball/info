@@ -1,0 +1,5 @@
+FILES: 1
+# SYNTAX:
+# filename of the frame, milliseconds to delay afterwards,
+# the RGB of the transparent part.
+ball.gif  50    255 0 0
