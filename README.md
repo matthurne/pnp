@@ -35,9 +35,8 @@ Press ESCAPE at any time to quit the game.
 Controls
 --------
 The controls for PNP's Not Pong are very simple:
-
-UP ARROW   - Move the player's paddle up the screen.
-DOWN ARROW - Move the player's paddle down the screen.
-SPACE BAR  - Start the round/Pause/Unpause.
-"d"        - Change the difficulty level from Easy to Hard and vice/versa.
-ESCAPE     - Quit the game.
+* UP ARROW   - Move the player's paddle up the screen.
+* DOWN ARROW - Move the player's paddle down the screen.
+* SPACE BAR  - Start the round/Pause/Unpause.
+* "d"        - Change the difficulty level from Easy to Hard and vice/versa.
+* ESCAPE     - Quit the game.
